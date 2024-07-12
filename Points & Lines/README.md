@@ -1,4 +1,4 @@
-# Graphics
+# Points & Lines
 
 Az első feladat célja az alapvető koordinátageometriai ismeretek felelevenítése és az OpenGL-lel való ismerkedés. Az elkészítendő programmal ízlésesen megválasztott szürke háttéren egérkattintásokkal pontokat vehetünk fel, a pontokra egyeneseket illeszthetünk, az egyeneseket tologathatjuk, és végül a kiválasztott egyenesek metszéspontjaiból újabb pontok hozhatók létre. A pontméret 10-es a vonalvastagság 3.
 
