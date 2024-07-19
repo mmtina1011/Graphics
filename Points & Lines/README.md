@@ -7,3 +7,5 @@ A világ-koordinátarendszer megegyezik a normalizált eszköz-koordinátarendsz
 Felhasználói oldalról a programnak 4 állapota van, amelyeket rendre a p, l, m, i billentyűkkel lehet kiválasztani:
 
 ‘p’: Pont rajzolás, amely az egér bal gombjának lenyomásakor a kurzor helyére egy piros pontot tesz. ’l’: Egyenes rajzolás, amelyhez két meglévő piros pontra kell rákattintani az egér bal gombjával. ’m’: Egyenes eltolás, amelyhez először az egyenest kell kiválasztani az bal egérgombbal, és ha ez sikeres, az egyenes követi a kurzort, azaz az egér lenyomott gomb melletti mozgatását, mindaddig, amíg el nem engedjük az egérgombot. ’i’: Metszéspont, amely két kiválasztott egyenes metszéspontjára (ha létezik) egy új piros pontot tesz. A program a keletkező pontok Descartes koordinátáit, valamint a keletkező egyenesek implicit és parametrikus egyenleteit printf-fel a konzolra kiírja.
+
+![result (1)](https://github.com/user-attachments/assets/3fa9536a-c943-4d69-a71a-1d81a6387e4e)
