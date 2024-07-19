@@ -8,3 +8,5 @@ Ezen billentyűk megnyomásának hatására az aktuális görbe képe az új kam
 A következőleg definiált görbe típusát az alábbi billentyűlenyomásokkal lehet meghatározni: ’l’: Lagrange ’b’: Bézier ’c’: Catmull-Rom
 
 Ezen billentyűk lenyomásakor az aktuális görbe, ha létezik, megsemmisül és az új görbe kontrollpontjainak megadásához kezdhetünk. A görbe kontrollpontjai az egér bal gombjának lenyomásakor a kurzor alá kerülnek, azaz a bemeneti csővezetéknek a kimeneti transzformáció inverzét kell produkálnia. Az egér jobb gombjának lenyomásával egy közeli (10 centiméternél közelebbi), már létező kontrollpont kiválasztható. A kiválasztott kontrollpont addig követi a kurzort, amíg el nem engedjük a jobb gombot. A ’T’ billentyűvel az aktuális és jövőbeli Catmull-Rom görbék tenzióparamétere 0.1-gyel növelhető, a ’t’ billentyűvel ugyanennyivel csökkenthető. A kontrollpont és tenzióparaméter megváltoztatását a görbe alakja rögtön követi, azaz ilyenkor újra azt kell rajzolni.
+
+![result](https://github.com/user-attachments/assets/83205de1-66dc-4f78-ad57-8172d92e3e84)
